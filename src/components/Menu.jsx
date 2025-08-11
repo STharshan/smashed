@@ -92,7 +92,7 @@ const allItems = [
 
 
 const Menu = () => {
-  const [selected, setSelected] = useState("Burgers");
+  const [selected, setSelected] = useState("Burger Special Meal");
 
   const filtered = selected === "All"
     ? allItems
