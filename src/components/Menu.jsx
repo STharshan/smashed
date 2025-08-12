@@ -51,32 +51,32 @@ const allItems = [
   { title: "Mayo", price: "£0.75", category: "Dips", image: "/chicken.jpg" },
 
   // Premium Shakes
-  { title: "Velvet Rouge", price: "£6.45", category: "Lamb Chops", image: "/lamb.jpg" },
-  { title: "Bangin' Brownie", price: "£6.45", category: "Lamb Chops", image: "/lamb.jpg" },
-  { title: "Cookie Monster", price: "£6.45", category: "Lamb Chops", image: "/lamb.jpg" },
+  { title: "Velvet Rouge", price: "£6.45", category: "Premium Shakes", image: "/lamb.jpg" },
+  { title: "Bangin' Brownie", price: "£6.45", category: "Premium Shakes", image: "/lamb.jpg" },
+  { title: "Cookie Monster", price: "£6.45", category: "Premium Shakes", image: "/lamb.jpg" },
 
-  // Shake
-  { title: "Oreo", price: "£4.95", category: "Shake", image: "/curry.jpg" },
-  { title: "Kinder Bueno", price: "£4.95", category: "Shake", image: "/curry.jpg" },
-  { title: "Kinder White", price: "£4.95", category: "Shake", image: "/curry.jpg" },
-  { title: "Ferrero Rocher", price: "£4.95", category: "Shake", image: "/curry.jpg" },
-  { title: "Aero Mint", price: "£4.95", category: "Shake", image: "/curry.jpg" },
-  { title: "Snickers", price: "£4.95", category: "Shake", image: "/curry.jpg" },
-  { title: "Crunchie", price: "£4.95", category: "Shake", image: "/curry.jpg" },
-  { title: "Terry's Orange", price: "£4.95", category: "Shake", image: "/curry.jpg" },
-  { title: "Flake", price: "£4.95", category: "Shake", image: "/curry.jpg" },
-  { title: "Maltesers", price: "£4.95", category: "Shake", image: "/curry.jpg" },
-  { title: "Mars", price: "£4.95", category: "Shake", image: "/curry.jpg" },
-  { title: "Biscoff", price: "£4.95", category: "Shake", image: "/curry.jpg" },
-  { title: "Reese's", price: "£4.95", category: "Shake", image: "/curry.jpg" },
-  { title: "M&M", price: "£4.95", category: "Shake", image: "/curry.jpg" },
-  { title: "Millions", price: "£4.95", category: "Shake", image: "/curry.jpg" },
-  { title: "Skittles", price: "£4.95", category: "Shake", image: "/curry.jpg" },
-  { title: "Jammie Dodgers", price: "£4.95", category: "Shake", image: "/curry.jpg" },
-  { title: "Strawbeery", price: "£4.95", category: "Shake", image: "/curry.jpg" },
-  { title: "Raspberry", price: "£4.95", category: "Shake", image: "/curry.jpg" },
-  { title: "Mango", price: "£4.95", category: "Shake", image: "/curry.jpg" },
-  { title: "Vanilla", price: "£4.95", category: "Shake", image: "/curry.jpg" },
+  // Shakes
+  { title: "Oreo", price: "£4.95", category: "Shakes", image: "/curry.jpg" },
+  { title: "Kinder Bueno", price: "£4.95", category: "Shakes", image: "/curry.jpg" },
+  { title: "Kinder White", price: "£4.95", category: "Shakes", image: "/curry.jpg" },
+  { title: "Ferrero Rocher", price: "£4.95", category: "Shakes", image: "/curry.jpg" },
+  { title: "Aero Mint", price: "£4.95", category: "Shakes", image: "/curry.jpg" },
+  { title: "Snickers", price: "£4.95", category: "Shakes", image: "/curry.jpg" },
+  { title: "Crunchie", price: "£4.95", category: "Shakes", image: "/curry.jpg" },
+  { title: "Terry's Orange", price: "£4.95", category: "Shakes", image: "/curry.jpg" },
+  { title: "Flake", price: "£4.95", category: "Shakes", image: "/curry.jpg" },
+  { title: "Maltesers", price: "£4.95", category: "Shakes", image: "/curry.jpg" },
+  { title: "Mars", price: "£4.95", category: "Shakes", image: "/curry.jpg" },
+  { title: "Biscoff", price: "£4.95", category: "Shakes", image: "/curry.jpg" },
+  { title: "Reese's", price: "£4.95", category: "Shakes", image: "/curry.jpg" },
+  { title: "M&M", price: "£4.95", category: "Shakes", image: "/curry.jpg" },
+  { title: "Millions", price: "£4.95", category: "Shakes", image: "/curry.jpg" },
+  { title: "Skittles", price: "£4.95", category: "Shakes", image: "/curry.jpg" },
+  { title: "Jammie Dodgers", price: "£4.95", category: "Shakes", image: "/curry.jpg" },
+  { title: "Strawbeery", price: "£4.95", category: "Shakes", image: "/curry.jpg" },
+  { title: "Raspberry", price: "£4.95", category: "Shakes", image: "/curry.jpg" },
+  { title: "Mango", price: "£4.95", category: "Shakes", image: "/curry.jpg" },
+  { title: "Vanilla", price: "£4.95", category: "Shakes", image: "/curry.jpg" },
 
   // Drinks
   { title: "Coke", price: "£1.50", category: "Drinks", image: "/drink.jpg" },
@@ -112,8 +112,8 @@ const Menu = () => {
             key={cat}
             onClick={() => setSelected(cat)}
             className={`px-4 py-2 rounded-md font-medium text-sm transition duration-300 ease-in-out ${selected === cat
-              ? "bg-green-700 text-white shadow-md"
-              : "bg-[#F26C22] text-white hover:bg-[#D42C27]"
+              ? "bg-yellow-700 text-white shadow-md"
+              : "bg-yellow-500 text-white hover:bg-[#F26C22]"
               }`}
           >
             {cat}
@@ -126,7 +126,7 @@ const Menu = () => {
         {filtered.map((item, i) => (
           <div
             key={i}
-            className="bg-[#1A1A1A] rounded-lg border border-[#333] overflow-hidden transition-all duration-300 ease-in-out transform hover:scale-105 hover:border-[#F26C22] hover:shadow-2xl"
+            className="bg-[#1A1A1A] rounded-lg border border-[#333] overflow-hidden transition-all duration-300 ease-in-out transform hover:scale-105 hover:border-yellow-500 hover:shadow-2xl"
           >
             <img
               src="/logo.png" // Placeholder image, replace with item.image if available
@@ -141,14 +141,14 @@ const Menu = () => {
                 <h3 className="font-semibold text-white">{item.desc}</h3>
               </div>
               <div className="mb-5">
-                <span className="text-[#46A547] font-semibold block">
+                <span className="text-yellow-500 font-semibold block">
                   Price: {item.price}
                 </span>
-                {item.halfprice && (
+                {/* {item.halfprice && (
                   <span className="text-[#F26C22] font-semibold block mt-1">
                     Half Price: {item.halfprice}
                   </span>
-                )}
+                )} */}
               </div>
             </div>
           </div>
