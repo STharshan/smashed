@@ -9,7 +9,7 @@ const Footer = () => {
         {/* Column 1 */}
         <div>   
             <img
-            className="h-20 w-20 font-serif tracking-widest ml-8 sm:ml-5"
+            className="h-25 w-20 font-serif tracking-widest ml-8 sm:ml-5"
             src="/logo.png"
             alt="logo"
           />
@@ -60,7 +60,7 @@ const Footer = () => {
               <FiPhone className="text-green-600"/> 0116 273 4557
             </li>
             <li className="flex items-center gap-2">
-              <FiMail className="text-green-600" /> hello@braai.com
+              <FiMail className="text-green-600" /> hello@Smashed.com
             </li>
           </ul>
         </div>
@@ -70,7 +70,7 @@ const Footer = () => {
 
       {/* Bottom Bar */}
       <div className="text-center text-md text-white font-semibold">
-        © 2025 Braai. All rights reserved. Made with <span className="text-red-500">❤️</span> for authentic food lovers.
+        © 2025 Smashed. All rights reserved. Made with <span className="text-red-500">❤️</span> for authentic food lovers.
       </div>
     </footer>
   );

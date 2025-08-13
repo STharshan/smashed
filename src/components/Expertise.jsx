@@ -17,9 +17,9 @@ const expertiseData = [
   },
   {
     icon: <Flame className="w-7 h-7 text-orange-400" />,
-    title: "Authentic Braai",
+    title: "Authentic Smashed",
     description:
-      "'Braai' means 'to cook meat over an open fire' in Southern Africa—bringing people together through flame, flavor, and unforgettable food.",
+      "'Smashed' means 'to cook meat over an open fire' in Southern Africa—bringing people together through flame, flavor, and unforgettable food.",
   },
 ];
 
