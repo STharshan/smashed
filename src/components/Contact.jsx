@@ -21,7 +21,7 @@ const Contact = () => {
                 <FiPhone className="text-2xl mt-1" />
                 <div>
                   <p className="font-semibold">Phone</p>
-                  <p>0116 273 4557</p>
+                  <p>+44 1530 648708</p>
                 </div>
               </div>
 
@@ -38,8 +38,8 @@ const Contact = () => {
                 <div>
                   <p className="font-semibold">Address</p>
                   <p>
-                    421 St Saviours Rd,<br />
-                    Leicester LE5 4HH
+                    85a Market Street,<br />
+                    ashby-de-la-zouch LE65 1AH
                   </p>
                 </div>
               </div>

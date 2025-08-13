@@ -138,7 +138,7 @@ const Menu = () => {
                 <h3 className="text-lg font-bold text-white">{item.title}</h3>
               </div>
               <div className="mb-2">
-                <h3 className="font-semibold text-white">{item.desc}</h3>
+                <h3 className="text-white">{item.desc}</h3>
               </div>
               <div className="mb-5">
                 <span className="text-yellow-500 font-semibold block">
