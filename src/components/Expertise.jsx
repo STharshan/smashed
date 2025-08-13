@@ -5,30 +5,30 @@ import { FaAward } from 'react-icons/fa'; // Importing icons from React Icons
 const expertiseData = [
   {
     icon: <FaAward className="text-3xl text-orange-400" />,
-    title: "Personal Inspection",
+    title: "Hands-On from Bun to Bite",
     description:
-      "We personally inspect every cut of meat before it makes its way to the grill, ensuring only the finest quality reaches your plate.",
+      "We craft every burger ourselves-seasoning, smashing, and stacking-so you get nothing but fresh, mouthwatering goodness.",
   },
   {
     icon: <Utensils  className="text-3xl text-orange-400" />,
-    title: "Lifelong Experience",
+    title: "Years in the Making",
     description:
-      "With butchery experience from age 12 and a background in hunting and preparing meat in Africa, our founder brings unmatched understanding.",
+      "From teenage grill experiments to perfecting patties on the road, our journey’s been fuelled by curiosity, flavour, and a lot of taste-testing.",
   },
   {
     icon: <Flame className="w-7 h-7 text-orange-400" />,
-    title: "Authentic Smashed",
+    title: "Smashed with Soul",
     description:
-      "'Smashed' means 'to cook meat over an open fire' in Southern Africa—bringing people together through flame, flavor, and unforgettable food.",
+      "For us, “smashed” means more than a cooking style-it’s about bringing mates together over flame, flavour, and one seriously good burger.",
   },
 ];
 
 const Expertise = () => {
   return (
     <section id="expertise" className=" py-16 px-6">
-      <h2 className="text-4xl font-bold text-center mb-8 text-[#333]">Unmatched Expertise</h2>
+      <h2 className="text-4xl font-bold text-center mb-8 text-[#333]">Burgers Born from Mateship</h2>
       <p className="text-xl text-center text-gray-600 mb-12">
-        Quality isn't just a promise—it's a way of life shaped by decades of experience.
+        What started as two friends sharing laughs over backyard BBQs is now a full-blown mission to serve the juiciest burgers in town.
       </p>
       <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {expertiseData.map((item, index) => (

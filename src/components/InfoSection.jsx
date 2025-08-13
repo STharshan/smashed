@@ -4,31 +4,53 @@ import { FiClock, FiMapPin, FiUsers } from "react-icons/fi";
 const InfoSection = () => {
   return (
     <section className="py-16 px-4 bg-white">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div className="text-center mb-5 text-2xl font-semibold" >Ashby</div>
+      <div className="max-w-2xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
         {/* Hours */}
         <div className="border rounded-lg p-6 text-center shadow-sm">
           <FiClock className="mx-auto text-4xl text-green-800 mb-4" />
           <h3 className="text-xl font-semibold text-green-900 mb-2">Hours</h3>
-          <p className="text-gray-700">Mon–Thu: 11am – 10pm</p>
-          <p className="text-gray-700">Fri–Sat: 11am – 11pm</p>
-          <p className="text-gray-700">Sunday: 12pm – 9pm</p>
+          <p className="text-gray-700">Monday: 17:00 – 23:00</p>
+          <p className="text-gray-700">Wednesday: 17:00 – 23:00</p>
+          <p className="text-gray-700">Thursday: 17:00 – 23:00</p>
+          <p className="text-gray-700">Friday: 17:00 – 23:00</p>
+          <p className="text-gray-700">Saturday: 17:00 – 23:00</p>
+          <p className="text-gray-700">Sunday: 17:00 – 23:00</p>
+          <p className="text-gray-700">Tuesday: Closed</p>
         </div>
 
         {/* Location */}
         <div className="border rounded-lg p-6 text-center shadow-sm">
           <FiMapPin className="mx-auto text-4xl text-green-800 mb-4" />
           <h3 className="text-xl font-semibold text-green-900 mb-2">Location</h3>
-          <p className="text-gray-700">421 St Saviours Rd,</p>
-          <p className="text-gray-700">Leicester LE5 4HH</p>
+          <p className="text-gray-700">85a Market Street</p>
+          <p className="text-gray-700">Ashby</p>
+          <p className="text-gray-700">LE65 1AH</p>
+        </div>
+      </div>
+
+      <div className="text-center mb-5 mt-10 text-2xl font-semibold" >Corby</div>
+      <div className="max-w-2xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+        {/* Hours */}
+        <div className="border rounded-lg p-6 text-center shadow-sm">
+          <FiClock className="mx-auto text-4xl text-green-800 mb-4" />
+          <h3 className="text-xl font-semibold text-green-900 mb-2">Hours</h3>
+          <p className="text-gray-700">Monday: 17:00 – 23:00</p>
+          <p className="text-gray-700">Wednesday: 17:00 – 23:00</p>
+          <p className="text-gray-700">Thursday: 17:00 – 23:00</p>
+          <p className="text-gray-700">Friday: 17:00 – 23:00</p>
+          <p className="text-gray-700">Saturday: 17:00 – 23:00</p>
+          <p className="text-gray-700">Sunday: 17:00 – 23:00</p>
+          <p className="text-gray-700">Tuesday: Closed</p>
         </div>
 
-        {/* Capacity */}
+        {/* Location */}
         <div className="border rounded-lg p-6 text-center shadow-sm">
-          <FiUsers className="mx-auto text-4xl text-green-800 mb-4" />
-          <h3 className="text-xl font-semibold text-green-900 mb-2">Capacity</h3>
-          <p className="text-gray-700">Indoor: 80 seats</p>
-          <p className="text-gray-700">Outdoor: 40 seats</p>
-          <p className="text-gray-700">Private dining available</p>
+          <FiMapPin className="mx-auto text-4xl text-green-800 mb-4" />
+          <h3 className="text-xl font-semibold text-green-900 mb-2">Location</h3>
+          <p className="text-gray-700">85a Market Street</p>
+          <p className="text-gray-700">Ashby</p>
+          <p className="text-gray-700">LE65 1AH</p>
         </div>
       </div>
     </section>

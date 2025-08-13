@@ -16,19 +16,18 @@ const Header = () => {
       <div className="relative text-white text-center px-4">
         <h1 className="text-4xl md:text-6xl font-bold mb-4">Smashed</h1>
         <p className="text-lg md:text-xl max-w-2xl mx-auto mb-6">
-          Where comfort meets creativity. Experience our signature potato dishes and
-          urban-inspired cuisine in the heart of the city.
+          Where comfort meets crave-worthy. Bite into our signature burgers, golden fries, and urban-inspired eats in the heart of the city.
         </p>
         <div className="flex flex-col sm:flex-row justify-center gap-4">
           <a href="#menu">
             <button className="bg-green-700 cursor-pointer hover:bg-green-800 text-white px-6 py-2 rounded shadow">
-              View Menu
+              Ashby
             </button>
           </a>
           <a href="#contact">
-          <button className="border cursor-pointer border-white hover:bg-white hover:text-black text-white px-6 py-2 rounded shadow">
-            Make Reservation
-          </button>
+            <button className="border cursor-pointer border-white hover:bg-white hover:text-black text-white px-6 py-2 rounded shadow">
+              Corby
+            </button>
           </a>
         </div>
       </div>

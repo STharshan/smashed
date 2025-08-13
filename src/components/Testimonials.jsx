@@ -1,55 +1,82 @@
 import React from "react";
 import { FaStar } from "react-icons/fa";
+import Slider from "react-slick";
 
+// Testimonials data
 const testimonials = [
   {
-    name: "Maggie Taylor",
-    initial: "M",
-    text: `"The Baked potatoes were delicious and portions very generous. Fantastic for a quick lunch, will definitely go again!"`,
+    name: "William",
+    text: `absolutely best burger around 100% ordering again`,
   },
   {
-    name: "R K",
-    initial: "R",
-    text: `"Really tasty and great portion size! Value for money and love the combos! Will definitely be a regular for us as a family going forwards."`,
+    name: "Anastasia",
+    text: `tasty food, good portions and came on time , thanks`,
   },
   {
-    name: "Michael Meyerstein",
-    initial: "M",
-    text: `"Great food at reasonable prices, good portion sizes and the staff are friendly. I would imagine as they find their feet the place will only get better!"`,
+    name: "Neil",
+    text: `Always consistent with quality`,
+  },
+  {
+    name: "Laeh",
+    text: `first time ordering will definitely be returning it was so mouth watering`,
+  },
+  {
+    name: "Andrew",
+    text: `Great food and love the milkshakes.Great food, and they're very customer focused, cant complain about a thing.`,
+  },
+  {
+    name: "Darren",
+    text: `Absolutely friendly staff and lovely food very recommended 👍🏻😃`,
+  },
+  {
+    name: "Demi",
+    text: `One of the best smashed burgers I’ve had. Perfectly crispy edges, juicy in the middle, and packed with flavor. The toppings are simple but spot-on, and the bun holds it all together without getting soggy. 10/10 will be reordering!`,
+  },
+  {
+    name: "Glen",
+    text: `Tasty food, quick delivery. Would 100% use again`,
+  },
+  {
+    name: "Julia",
+    text: `Best burgers around! Super flavourful and definitely not skimpy on the toppings! Mozzarella sticks are to die for as well! Would recommend`,
   },
 ];
 
 const Testimonials = () => {
   return (
-    <section className="py-16 px-4 bg-white">
+    <section className="bg-white py-16 px-4">
       <div className="max-w-7xl mx-auto text-center">
-        <h2 className="text-4xl font-bold text-green-900">What Our Customers Say</h2>
-        <p className="text-gray-700 mt-2 mb-10">
-          Don&apos;t just take our word for it – hear from our satisfied customers
-        </p>
+        <h2 className="text-4xl font-bold text-green-900 mb-6">What Our Customers Say</h2>
+        <p className="text-gray-700 mb-12">Don't just take our word for it – hear from our satisfied customers</p>
 
-        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-          {testimonials.map((t, index) => (
-            <div
-              key={index}
-              className="bg-green-50 border border-green-100 rounded-lg p-6 text-left shadow-sm"
-            >
-              <div className="flex items-center gap-3 mb-2">
-                <div className="bg-green-800 text-white w-10 h-10 rounded-full flex items-center justify-center font-bold">
-                  {t.initial}
-                </div>
-                <div>
-                  <h4 className="text-green-900 font-semibold">{t.name}</h4>
-                  <div className="flex text-yellow-500 text-sm">
-                    {[...Array(5)].map((_, i) => (
-                      <FaStar key={i} />
-                    ))}
+        {/* Scrollable Testimonials Section */}
+        <div className="overflow-hidden">
+          <div
+            className="flex space-x-6 animate-scroll"
+            style={{
+              animationDuration: `${testimonials.length * 4}s`,
+              animationTimingFunction: "linear",
+            }}
+          >
+            {testimonials.map((t, index) => (
+              <div
+                key={index}
+                className="min-w-[300px] px-6 py-4 border border-green-200 rounded-lg shadow-md hover:shadow-lg transition bg-white"
+              >
+                <div className="flex ml-23 gap-3 mb-2">
+                  <div>
+                    <h4 className="text-green-900 text-xl mb-2 font-semibold">{t.name}</h4>
+                    <div className="flex text-yellow-500 mb-2">
+                      {[...Array(5)].map((_, i) => (
+                        <FaStar key={i} />
+                      ))}
+                    </div>
                   </div>
                 </div>
+                <p className="text-gray-700 italic">{t.text}</p>
               </div>
-              <p className="text-gray-700 italic">{t.text}</p>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
       </div>
     </section>

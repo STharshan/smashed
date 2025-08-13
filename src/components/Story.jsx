@@ -40,8 +40,7 @@ const Story = () => {
 
                 {/* Description */}
                 <p className="text-xl text-gray-600">
-                    From humble beginnings in Bolton to bringing authentic African BBQ to
-                    your table—this is our journey of passion, flame, and flavor.
+                    From growing up together in the Midlands to flipping our dream into reality—this is our story of mates, burgers, and bold flavor.
                 </p>
             </div>
         </section>

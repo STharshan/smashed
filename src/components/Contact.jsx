@@ -21,7 +21,7 @@ const Contact = () => {
                 <FiPhone className="text-2xl mt-1" />
                 <div>
                   <p className="font-semibold">Phone</p>
-                  <p>+44 1530 648708</p>
+                  <p>01530 648 708</p>
                 </div>
               </div>
 
@@ -29,7 +29,7 @@ const Contact = () => {
                 <FiMail className="text-2xl mt-1" />
                 <div>
                   <p className="font-semibold">Email</p>
-                  <p>hello@urbanspud.com</p>
+                  <p>smashedashby@gmail.com</p>
                 </div>
               </div>
 
@@ -39,7 +39,7 @@ const Contact = () => {
                   <p className="font-semibold">Address</p>
                   <p>
                     85a Market Street,<br />
-                    ashby-de-la-zouch LE65 1AH
+                    Ashby LE65 1AH
                   </p>
                 </div>
               </div>
@@ -50,7 +50,7 @@ const Contact = () => {
               <h4 className="font-semibold mb-2">Follow Us</h4>
               <div className="flex gap-3">
                 <a
-                  href="https://www.facebook.com/yourpage"
+                  href="https://web.facebook.com/people/Smashed-Ashby/61570892613518/?_rdc=1&_rdr#"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -60,7 +60,7 @@ const Contact = () => {
                 </a>
 
                 <a
-                  href="https://www.instagram.com/braaimr/?hl=en"
+                  href="https://www.instagram.com/smashed.ashby/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

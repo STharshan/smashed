@@ -6,46 +6,32 @@ import { SlLocationPin } from "react-icons/sl";
 const journeyData = [
   {
     year: "1990s",
-    title: "Humble Beginnings",
+    title: "Friends & Family",
     description:
-      "Arriving in Bolton as a student, working in a local pizza and pasta restaurant. The love for food began to bloom with every shift.",
+      "Built by lifelong mates with a love for bringing people together over great food.",
     icon: <SlLocationPin className="text-xl"/>, // Use the corresponding icon
   },
   {
     year: "community",
-    title: "Keeping the Flame Alive",
+    title: "Passion for Food",
     description:
-      "Starting from home, authentic BBQ became a favorite among friends, family, and a growing community of loyal customers.",
+      "Every burger is crafted with care, flavour, and a dash of obsession.",
     icon: <FaHeart className="text-xl"/>, // Use the corresponding icon
   },
   {
     year: "8 Years",
-    title: "Taking Ownership",
+    title: "World of Inspiration",
     description:
-      "Hard work paid off—bought and ran that very restaurant for eight incredible years, learning every aspect of the business.",
+      "Global flavours, reimagined and served fresh to your doorstep.",
     icon: <Utensils />, // Use the corresponding icon
   },
   {
     year: "Journey",
-    title: "Return to Roots",
+    title: "Always Learning",
     description:
-      "A short return to Africa rekindled the connection to heritage and traditional cooking methods that would later define our unique approach.",
+      "We never stop exploring, tasting, and improving what we do.",
     icon: <FaGlobe className="text-xl" />, // Use the corresponding icon
   },
-//   {
-//     year: "Search",
-//     title: "Finding Home",
-//     description:
-//       "Four long years of searching for the perfect location. Patience and persistence finally led to our dream space.",
-//     icon: <FaSearch />, // Use the corresponding icon
-//   },
-  // {
-  //   year: "Today",
-  //   title: "Six Years Strong",
-  //   description:
-  //     "Proud to call this place home, serving our community with authentic flavors and bringing people together through food.",
-  //   icon: <Users />, // Use the corresponding icon
-  // },
 ];
 
 const Journey = () => {

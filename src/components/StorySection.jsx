@@ -20,11 +20,9 @@ export function StorySection() {
             >
                 <Flame color="white" size={70} />
             </div>
-            <h1 className="text-4xl font-bold mb-2">Welcome to Our <span className="text-[#F26C22]">Story</span> </h1>
-            <h2 className="text-2xl font-semibold mb-6 text-orange-300">Welcome to Our Flame</h2>
+            <h1 className="text-4xl font-bold mb-2">Welcome to Our <span className="text-[#F26C22]">Grill</span> </h1>
             <p className="text-lg max-w-2xl mx-auto">
-                Every dish tells a story. Every flame carries tradition. Every meal brings us together.
-                This is more than food—this is heritage on a plate.
+                Every burger has a tale. Every sizzle carries our journey. Every bite brings mates together. This is more than food-it’s friendship in a bun.
             </p>
         </section>
     );

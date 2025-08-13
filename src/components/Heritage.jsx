@@ -7,13 +7,13 @@ const Heritage = () => {
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between">
         {/* Left Section */}
         <div className="md:w-1/2 mb-8 md:mb-0">
-          <h2 className="text-4xl font-bold text-green-900 mb-4">Our Heritage</h2>
-          <h3 className="text-2xl font-semibold text-green-700 mb-4">Flavors of Two Worlds</h3>
+          <h2 className="text-4xl font-bold text-green-900 mb-4">Our Story</h2>
+          <h3 className="text-2xl font-semibold text-green-700 mb-4">Flippin’ Good Times</h3>
           <p className="text-lg text-gray-700">
-            Rooted in the vibrant flavors of Zambia and India, our BBQ and grilled meats are a celebration of heritage, tradition, and taste.
+            From kicking a ball around the Midlands to flipping burgers side by side, we’ve swapped playground banter for grill-side banter—and we’re loving every minute.
           </p>
           <p className="text-lg text-gray-700 mt-4">
-            Inspired by a mother's love for cooking—her sweet treats and signature biryani—every dish here is crafted with care, quality, and flavor at its heart.
+            We nick flavours from all over the globe, stack ’em high, and serve ’em with a wink. Fresh buns, juicy patties, saucy combos—every bite’s a little adventure, right here on your plate.
           </p>
         </div>
 
@@ -24,9 +24,9 @@ const Heritage = () => {
               <FaHeart className="text-2xl" />
             </div>
           </div>
-          <h3 className="text-xl font-semibold text-center text-[#333]">Mother's Inspiration</h3>
+          <h3 className="text-xl font-semibold text-center text-[#333]">Mates’ Inspiration</h3>
           <p className="text-center text-gray-600 mt-2">
-            Sweet treats, signature biryani, and endless love for cooking.
+            From backyard BBQ experiments to late-night burger runs, our love for good grub (and each other’s bad ideas) sparked the flavours you’re biting into today.
           </p>
         </div>
       </div>
