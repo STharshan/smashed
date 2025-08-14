@@ -61,7 +61,7 @@ const Testimonials = () => {
             {testimonials.map((t, index) => (
               <div
                 key={index}
-                className="min-w-[300px] px-6 py-4 border border-green-200 rounded-lg shadow-md hover:shadow-lg transition bg-white"
+                className="min-w-[300px] px-6 py-4 border-2 border-yellow-300 rounded-lg shadow-md hover:shadow-lg transition bg-white"
               >
                 <div className="flex ml-23 gap-3 mb-2">
                   <div>
