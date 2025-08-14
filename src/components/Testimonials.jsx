@@ -61,19 +61,19 @@ const Testimonials = () => {
             {testimonials.map((t, index) => (
               <div
                 key={index}
-                className="min-w-[300px] px-6 py-4 border-2 border-yellow-300 rounded-lg shadow-md hover:shadow-lg transition bg-white"
+                className="min-w-[300px] px-6 py-4 border-2 border-white rounded-lg shadow-md hover:shadow-lg transition bg-yellow-500"
               >
-                <div className="flex ml-23 gap-3 mb-2">
+                <div className="flex ml-21 gap-3 mb-2">
                   <div>
                     <h4 className="text-black text-xl mb-2 font-semibold">{t.name}</h4>
-                    <div className="flex text-yellow-500 mb-2">
+                    <div className="flex text-white mb-2">
                       {[...Array(5)].map((_, i) => (
                         <FaStar key={i} />
                       ))}
                     </div>
                   </div>
                 </div>
-                <p className="text-gray-700 italic">{t.text}</p>
+                <p className="text-gray-900 italic">{t.text}</p>
               </div>
             ))}
           </div>

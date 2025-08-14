@@ -42,18 +42,18 @@ const Journey = () => {
         {journeyData.map((item, index) => (
           <div
             key={index}
-            className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300"
+            className="bg-yellow-500 p-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300"
           >
             <div className="flex items-center space-x-3">
               <div
-                className={`flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center bg-[#F26C22] text-white`}
+                className={`flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center bg-black text-white`}
               >
                 {item.icon} {/* Display the React icon here */}
               </div>
               <span className="text-lg font-semibold ">{item.year}</span>
             </div>
-            <h3 className="text-xl font-bold mt-4 text-yellow-500">{item.title}</h3>
-            <p className="text-gray-600 mt-2">{item.description}</p>
+            <h3 className="text-xl font-bold mt-4 text-white">{item.title}</h3>
+            <p className="text-gray-900 mt-2">{item.description}</p>
           </div>
         ))}
       </div>

@@ -84,7 +84,7 @@ const Contact = () => {
           </div>
 
           {/* Contact Form */}
-          <div className="bg-white p-6 rounded-lg shadow">
+          <div className="bg-yellow-500 p-6 rounded-lg shadow">
             <h3 className="text-xl font-semibold mb-4">Send us a message</h3>
             <form className="space-y-4">
               <div className="flex flex-col sm:flex-row gap-4">
@@ -116,7 +116,7 @@ const Contact = () => {
               ></textarea>
               <button
                 type="submit"
-                className="w-full bg-yellow-500 text-white py-2 rounded hover:bg-green-900 transition"
+                className="w-full bg-white text-black font-semibold py-2 rounded-lg hover:bg-gray-200 cursor-pointer transition"
               >
                 Send Message
               </button>

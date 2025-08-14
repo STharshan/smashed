@@ -34,13 +34,13 @@ const Expertise = () => {
         {expertiseData.map((item, index) => (
           <div
             key={index}
-            className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300"
+            className="bg-yellow-500 p-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300"
           >
             <div className="flex items-center justify-center mb-4">
-              <div className="bg-orange-100 p-3 rounded-full">{item.icon}</div>
+              <div className="bg-white p-3 rounded-full">{item.icon}</div>
             </div>
-            <h3 className="text-xl font-semibold text-center text-yellow-500">{item.title}</h3>
-            <p className="text-center text-gray-600 mt-2">{item.description}</p>
+            <h3 className="text-xl font-semibold text-center text-black">{item.title}</h3>
+            <p className="text-center text-gray-900 mt-2">{item.description}</p>
           </div>
         ))}
       </div>
