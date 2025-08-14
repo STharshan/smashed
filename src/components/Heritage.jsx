@@ -3,16 +3,16 @@ import { FaHeart } from 'react-icons/fa'; // Using React Icons
 
 const Heritage = () => {
   return (
-    <section id="heritage" className="bg-gradient-to-r to-green-700 py-16 px-6">
+    <section id="heritage" className="bg-black py-16 px-6">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between">
         {/* Left Section */}
         <div className="md:w-1/2 mb-8 md:mb-0">
-          <h2 className="text-4xl font-bold text-green-900 mb-4">Our Story</h2>
-          <h3 className="text-2xl font-semibold text-green-700 mb-4">Flippin’ Good Times</h3>
-          <p className="text-lg text-gray-700">
+          <h2 className="text-4xl font-bold text-white mb-4">Our Story</h2>
+          <h3 className="text-2xl font-semibold text-yellow-500 mb-4">Flippin’ Good Times</h3>
+          <p className="text-lg text-gray-400 font-semibold">
             From kicking a ball around the Midlands to flipping burgers side by side, we’ve swapped playground banter for grill-side banter—and we’re loving every minute.
           </p>
-          <p className="text-lg text-gray-700 mt-4">
+          <p className="text-lg text-gray-400 font-semibold mt-4">
             We nick flavours from all over the globe, stack ’em high, and serve ’em with a wink. Fresh buns, juicy patties, saucy combos—every bite’s a little adventure, right here on your plate.
           </p>
         </div>
@@ -25,7 +25,7 @@ const Heritage = () => {
             </div>
           </div>
           <h3 className="text-xl font-semibold text-center text-[#333]">Mates’ Inspiration</h3>
-          <p className="text-center text-gray-600 mt-2">
+          <p className="text-center text-gray-800 mt-2">
             From backyard BBQ experiments to late-night burger runs, our love for good grub (and each other’s bad ideas) sparked the flavours you’re biting into today.
           </p>
         </div>

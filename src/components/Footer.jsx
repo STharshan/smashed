@@ -53,15 +53,15 @@ const Footer = () => {
           <h3 className="text-xl font-bold mb-5">Contact Info</h3>
           <ul className="space-y-2 text-md text-gray-400 font-semibold">
             <li className="flex items-start gap-2">
-              <FiMapPin className="mt-1 text-green-600" />
+              <FiMapPin className="mt-1 text-yellow-500" />
               85a Market Street,<br />
               Ashby LE65 1AH
             </li>
             <li className="flex items-center gap-2">
-              <FiPhone className="text-green-600" />01530 648 708
+              <FiPhone className="text-yellow-500" />01530 648 708
             </li>
             <li className="flex items-center gap-2">
-              <FiMail className="text-green-600" />smashedashby@gmail.com
+              <FiMail className="text-yellow-500" />smashedashby@gmail.com
             </li>
           </ul>
         </div>
@@ -80,7 +80,7 @@ const Footer = () => {
             href="https://www.ansely.co.uk/"  // Replace this with the actual Ansely website
             target="_blank"
             rel="noopener noreferrer"
-            className="text-green-700 hover:underline"
+            className="text-yellow-500 hover:underline"
           >
             Ansely
           </a>

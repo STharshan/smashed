@@ -3,18 +3,18 @@ import { FiPhone, FiMail, FiMapPin } from "react-icons/fi";
 
 const Contact = () => {
   return (
-    <section id="contact" className="bg-green-50 py-16 px-4 scroll-m-22">
+    <section id="contact" className="bg-black py-16 px-4 scroll-m-22">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-green-900">Get In Touch</h2>
-          <p className="text-green-800 mt-2">
+          <h2 className="text-4xl font-bold text-yellow-500">Get In Touch</h2>
+          <p className="text-white text-lg mt-2">
             Have questions or want to make a reservation? We'd love to hear from you!
           </p>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
           {/* Contact Info */}
-          <div className="space-y-6 text-green-900">
+          <div className="space-y-6 text-white">
             <div>
               <h3 className="text-xl font-semibold mb-2">Contact Information</h3>
               <div className="flex items-start gap-3 mb-2">
@@ -54,7 +54,7 @@ const Contact = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <button className="border px-4 py-1 rounded hover:bg-green-800 hover:text-white transition">
+                  <button className="border px-4 py-1 rounded hover:bg-yellow-500 hover:text-white transition">
                     Facebook
                   </button>
                 </a>
@@ -64,7 +64,7 @@ const Contact = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <button className="border px-4 py-1 rounded hover:bg-green-800 hover:text-white transition">
+                  <button className="border px-4 py-1 rounded hover:bg-yellow-500 hover:text-white transition">
                     Instagram
                   </button>
                 </a>
@@ -74,7 +74,7 @@ const Contact = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <button className="border px-4 py-1 rounded hover:bg-green-800 hover:text-white transition">
+                  <button className="border px-4 py-1 rounded hover:bg-yellow-500 hover:text-white transition">
                     Twitter
                   </button>
                 </a>
@@ -85,7 +85,7 @@ const Contact = () => {
 
           {/* Contact Form */}
           <div className="bg-white p-6 rounded-lg shadow">
-            <h3 className="text-xl font-semibold text-green-900 mb-4">Send us a message</h3>
+            <h3 className="text-xl font-semibold mb-4">Send us a message</h3>
             <form className="space-y-4">
               <div className="flex flex-col sm:flex-row gap-4">
                 <input
@@ -116,7 +116,7 @@ const Contact = () => {
               ></textarea>
               <button
                 type="submit"
-                className="w-full bg-green-800 text-white py-2 rounded hover:bg-green-900 transition"
+                className="w-full bg-yellow-500 text-white py-2 rounded hover:bg-green-900 transition"
               >
                 Send Message
               </button>

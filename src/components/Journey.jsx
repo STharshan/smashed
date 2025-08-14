@@ -36,8 +36,8 @@ const journeyData = [
 
 const Journey = () => {
   return (
-    <section id="journey" className="bg-[#f5f5f5] py-16 px-6">
-      <h2 className="text-4xl font-bold text-center mb-8 text-green-900">The Journey</h2>
+    <section id="journey" className="bg-black py-16 px-6">
+      <h2 className="text-4xl font-bold text-center mb-8 text-yellow-500">The Journey</h2>
       <div className="grid sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-8">
         {journeyData.map((item, index) => (
           <div
@@ -52,7 +52,7 @@ const Journey = () => {
               </div>
               <span className="text-lg font-semibold ">{item.year}</span>
             </div>
-            <h3 className="text-xl font-bold mt-4 text-green-700">{item.title}</h3>
+            <h3 className="text-xl font-bold mt-4 text-yellow-500">{item.title}</h3>
             <p className="text-gray-600 mt-2">{item.description}</p>
           </div>
         ))}

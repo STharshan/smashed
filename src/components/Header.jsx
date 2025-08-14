@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <section
       id="header"
-      className="w-full h-screen bg-cover bg-center relative flex items-center justify-center"
+      className="w-full h-screen bg-black bg-cover bg-center relative flex items-center justify-center"
       style={{
         backgroundImage: "url('/hero-bg.jpg')",
       }}
@@ -20,12 +20,12 @@ const Header = () => {
         </p>
         <div className="flex flex-col sm:flex-row justify-center gap-4">
           <a href="#menu">
-            <button className="bg-green-700 cursor-pointer hover:bg-green-800 text-white px-6 py-2 rounded shadow">
+            <button className="bg-yellow-500 cursor-pointer hover:bg-yellow-600 text-black px-6 py-2 font-bold rounded shadow">
               Ashby
             </button>
           </a>
           <a href="#contact">
-            <button className="border cursor-pointer border-white hover:bg-white hover:text-black text-white px-6 py-2 rounded shadow">
+            <button className="border cursor-pointer font-semibold border-gray-400 hover:bg-white hover:text-black text-white px-6 py-2 rounded shadow">
               Corby
             </button>
           </a>

@@ -25,9 +25,9 @@ const expertiseData = [
 
 const Expertise = () => {
   return (
-    <section id="expertise" className=" py-16 px-6">
-      <h2 className="text-4xl font-bold text-center mb-8 text-[#333]">Burgers Born from Mateship</h2>
-      <p className="text-xl text-center text-gray-600 mb-12">
+    <section id="expertise" className=" py-16 px-6 bg-black">
+      <h2 className="text-4xl font-bold text-center mb-8 text-white">Burgers Born from Mateship</h2>
+      <p className="text-xl text-center text-yellow-500 mb-12">
         What started as two friends sharing laughs over backyard BBQs is now a full-blown mission to serve the juiciest burgers in town.
       </p>
       <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -39,7 +39,7 @@ const Expertise = () => {
             <div className="flex items-center justify-center mb-4">
               <div className="bg-orange-100 p-3 rounded-full">{item.icon}</div>
             </div>
-            <h3 className="text-xl font-semibold text-center text-green-700">{item.title}</h3>
+            <h3 className="text-xl font-semibold text-center text-yellow-500">{item.title}</h3>
             <p className="text-center text-gray-600 mt-2">{item.description}</p>
           </div>
         ))}

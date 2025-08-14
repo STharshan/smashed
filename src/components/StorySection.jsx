@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import { Flame } from "lucide-react"; // Import flame icon
 
 export function StorySection() {
     const [animate, setAnimate] = useState(false);
@@ -13,15 +12,20 @@ export function StorySection() {
     }, []);
 
     return (
-        <section className="flex flex-col items-center justify-center py-16 px-6 bg-gradient-to-r from-green-700 via-green-900 to-black text-white text-center">
+        <section className="flex flex-col items-center justify-center px-6 bg-black text-white text-center">
             <div
-                className={`w-24 h-24 rounded-full flex items-center justify-center mb-6 ${animate ? "animate-pulse" : ""
-                    } bg-[#F26C22] shadow-xs transition-all duration-500`}
+                className={`${animate ? "animate-pulse" : ""
+                    } shadow-xs transition-all duration-800 mt-10`}
             >
-                <Flame color="white" size={70} />
+                {/* Replace with your image URL */}
+                <img
+                    src="/fire.png"  // Update this with your image path
+                    alt="Fire"
+                    className="w-18 h-12" // Adjust the image size as needed
+                />
             </div>
-            <h1 className="text-4xl font-bold mb-2">Welcome to Our <span className="text-[#F26C22]">Grill</span> </h1>
-            <p className="text-lg max-w-2xl mx-auto">
+            <h1 className="text-4xl font-bold mb-2 mt-2">Welcome to Our <span className="text-yellow-500">Grill</span> </h1>
+            <p className="text-lg max-w-2xl mx-auto font-semibold text-gray-400">
                 Every burger has a tale. Every sizzle carries our journey. Every bite brings mates together. This is more than food-it’s friendship in a bun.
             </p>
         </section>

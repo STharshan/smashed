@@ -126,7 +126,7 @@ const Menu = () => {
         {filtered.map((item, i) => (
           <div
             key={i}
-            className="bg-[#1A1A1A] rounded-lg border border-[#333] overflow-hidden transition-all duration-300 ease-in-out transform hover:scale-105 hover:border-yellow-500 hover:shadow-2xl"
+            className="bg-[#1A1A1A] rounded-lg border border-gray-300 overflow-hidden transition-all duration-300 ease-in-out transform hover:scale-105 hover:border-yellow-500 hover:shadow-2xl"
           >
             <img
               src="/logo.png" // Placeholder image, replace with item.image if available
