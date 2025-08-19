@@ -66,11 +66,11 @@ const Contact = () => {
             </div>
 
             {/* Social Buttons */}
-            <div>
-              <h4 className="font-semibold mb-2">Follow Us</h4>
+                        <div>
+              <h4 className="font-semibold mb-2">Ashby</h4>
               <div className="flex gap-3">
                 <a
-                  href="https://web.facebook.com/people/Smashed-Ashby/61570892613518/?_rdc=1&_rdr#"
+                  href="https://www.facebook.com/people/Smashed-Ashby/61570892613518/?_rdr"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -80,7 +80,7 @@ const Contact = () => {
                 </a>
 
                 <a
-                  href="https://www.instagram.com/smashed.ashby/"
+                  href="https://www.instagram.com/smashashby/?hl=en"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -88,18 +88,32 @@ const Contact = () => {
                     Instagram
                   </button>
                 </a>
+              </div>
+            </div>
 
+            <div>
+              <h4 className="font-semibold mb-2">Quorn</h4>
+              <div className="flex gap-3">
                 <a
-                  href="https://twitter.com/yourhandle"
+                  href="https://www.facebook.com/profile.php?id=61577755926702#"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <button className="border px-4 py-1 rounded hover:bg-yellow-500 hover:text-white transition">
-                    Twitter
+                    Facebook
+                  </button>
+                </a>
+
+                <a
+                  href="https://www.instagram.com/smashedquorn"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="border px-4 py-1 rounded hover:bg-yellow-500 hover:text-white transition">
+                    Instagram
                   </button>
                 </a>
               </div>
-
             </div>
           </div>
 

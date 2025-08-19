@@ -29,7 +29,7 @@ const InfoSection = () => {
         </div>
       </div>
 
-      <div className="text-center mb-5 mt-10 text-2xl font-semibold text-white" >Corby</div>
+      <div className="text-center mb-5 mt-10 text-2xl font-semibold text-white" >Quorn</div>
       <div className="max-w-2xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
         {/* Hours */}
         <div className="border-2 rounded-lg p-6 text-center shadow-sm bg-yellow-500 border-white">

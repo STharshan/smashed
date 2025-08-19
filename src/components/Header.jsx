@@ -24,9 +24,13 @@ const Header = () => {
               Ashby
             </button>
           </a>
-          <a href="#contact">
+          <a
+            href="https://www.pronto-ny.com/ordering/restaurant/menu?restaurant_uid=ac4a6b17-c1a7-4cee-9d15-8f133982a3b3 "
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <button className="border cursor-pointer font-semibold border-gray-400 hover:bg-white hover:text-black text-white px-6 py-2 rounded shadow">
-              Corby
+              Quorn
             </button>
           </a>
         </div>
