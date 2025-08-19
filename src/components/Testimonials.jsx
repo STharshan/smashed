@@ -1,6 +1,5 @@
 import React from "react";
 import { FaStar } from "react-icons/fa";
-import Slider from "react-slick";
 
 // Testimonials data
 const testimonials = [

@@ -38,11 +38,11 @@ const Footer = () => {
         <div>
           <h3 className="text-xl font-bold mb-5">Our Menu</h3>
           <ul className="space-y-2 text-md text-gray-400 font-semibold">
-            <li><a href="#" className="hover:text-gray-300">Chef Specials</a></li>
-            <li><a href="#" className="hover:text-gray-300">Burgers</a></li>
-            <li><a href="#" className="hover:text-gray-300">Tawa</a></li>
-            <li><a href="#" className="hover:text-gray-300">Kebab Rools</a></li>
-            <li><a href="#" className="hover:text-gray-300">Biriyani</a></li>
+            <li><a href="#" className="hover:text-gray-300">Burger Special Meal</a></li>
+            <li><a href="#" className="hover:text-gray-300">Smashed Burgers</a></li>
+            <li><a href="#" className="hover:text-gray-300">Smashed Chicken Burgers</a></li>
+            <li><a href="#" className="hover:text-gray-300">Loaded Fries</a></li>
+            <li><a href="#" className="hover:text-gray-300">Sides</a></li>
             <li><a href="#" className="hover:text-gray-300">Privacy Policy</a></li>
             <li><a href="#" className="hover:text-gray-300">Terms & Conditions</a></li>
           </ul>
@@ -54,14 +54,37 @@ const Footer = () => {
           <ul className="space-y-2 text-md text-gray-400 font-semibold">
             <li className="flex items-start gap-2">
               <FiMapPin className="mt-1 text-yellow-500" />
-              85a Market Street,<br />
-              Ashby LE65 1AH
+              <a
+                href="https://www.google.com/maps?q=85a+Market+Street,+Ashby+LE65+1AH"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:underline text-gray-400"
+              >
+                85a Market Street,<br />
+                Ashby LE65 1AH
+              </a>
             </li>
             <li className="flex items-center gap-2">
-              <FiPhone className="text-yellow-500" />01530 648 708
+              <FiPhone className="text-yellow-500" />
+              <a
+                href="https://wa.me/441530648708"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:underline text-gray-400"
+              >
+                01530 648 708
+              </a>
             </li>
             <li className="flex items-center gap-2">
-              <FiMail className="text-yellow-500" />smashedashby@gmail.com
+              <FiMail className="text-yellow-500" />
+              <a
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=smashedashby@gmail.com&su=Inquiry%20of%20Website"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:underline text-gray-400"
+              >
+                smashedashby@gmail.com
+              </a>
             </li>
           </ul>
         </div>
@@ -73,11 +96,11 @@ const Footer = () => {
       <div className="text-center text-md text-white font-semibold">
         © 2025 Smashed. All rights reserved. Made with <span className="text-red-500">❤️</span> for authentic food lovers.
       </div>
-      <div className=" mt-2 text-center font-semibold">
+      <div className="mt-2 text-center font-semibold">
         <p>
           Powered by{" "}
           <a
-            href="https://www.ansely.co.uk/"  // Replace this with the actual Ansely website
+            href="https://www.ansely.co.uk/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-yellow-500 hover:underline"

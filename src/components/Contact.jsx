@@ -21,15 +21,30 @@ const Contact = () => {
                 <FiPhone className="text-2xl mt-1" />
                 <div>
                   <p className="font-semibold">Phone</p>
-                  <p>01530 648 708</p>
+                  <a
+                    href="https://wa.me/441530648708"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-yellow-500 transition"
+                  >
+                    01530 648 708
+                  </a>
                 </div>
+
               </div>
 
               <div className="flex items-start gap-3 mb-2">
                 <FiMail className="text-2xl mt-1" />
                 <div>
                   <p className="font-semibold">Email</p>
-                  <p>smashedashby@gmail.com</p>
+                  <a
+                    href={`https://mail.google.com/mail/?view=cm&fs=1&to=smashedashby@gmail.com&su=Inquiry%20of%20Website`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-yellow-500"
+                  >
+                    smashedashby@gmail.com
+                  </a>
                 </div>
               </div>
 
@@ -37,10 +52,15 @@ const Contact = () => {
                 <FiMapPin className="text-2xl mt-1" />
                 <div>
                   <p className="font-semibold">Address</p>
-                  <p>
+                  <a
+                    href="https://www.google.com/maps?q=85a+Market+Street,+Ashby+LE65+1AH"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className=" hover:text-yellow-500"
+                  >
                     85a Market Street,<br />
                     Ashby LE65 1AH
-                  </p>
+                  </a>
                 </div>
               </div>
             </div>
