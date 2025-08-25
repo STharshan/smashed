@@ -26,7 +26,7 @@ const expertiseData = [
 const Expertise = () => {
   return (
     <section id="expertise" className=" py-16 px-6 bg-black">
-      <h2 className="text-4xl font-bold text-center mb-8 text-white">Burgers Born from Mateship</h2>
+      <h2 className="text-4xl font-bold text-center mb-8 text-white">Juiciest Burgers In Town</h2>
       <p className="text-xl text-center text-yellow-500 mb-12">
         What started as two friends sharing laughs over backyard BBQs is now a full-blown mission to serve the juiciest burgers in town.
       </p>

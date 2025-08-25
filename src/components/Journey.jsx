@@ -5,7 +5,7 @@ import { SlLocationPin } from "react-icons/sl";
 
 const journeyData = [
   {
-    year: "1990s",
+    year: "Midlands",
     title: "Friends & Family",
     description:
       "Built by lifelong mates with a love for bringing people together over great food.",
@@ -19,7 +19,7 @@ const journeyData = [
     icon: <FaHeart className="text-xl"/>, // Use the corresponding icon
   },
   {
-    year: "8 Years",
+    year: "Taste",
     title: "World of Inspiration",
     description:
       "Global flavours, reimagined and served fresh to your doorstep.",

@@ -1,5 +1,5 @@
 import React from "react";
-import { FiClock, FiMapPin, FiUsers } from "react-icons/fi";
+import { FiClock, FiMapPin, FiPhone, FiUsers } from "react-icons/fi";
 
 const InfoSection = () => {
   return (
@@ -26,6 +26,8 @@ const InfoSection = () => {
           <p className="text-gray-900">85a Market Street</p>
           <p className="text-gray-900">Ashby</p>
           <p className="text-gray-900">LE65 1AH</p>
+          <FiPhone className="mx-auto text-4xl mb-2 mt-4"/>
+          <h3 className="text-xl font-semibold">01530 648708</h3>
         </div>
       </div>
 
@@ -48,9 +50,11 @@ const InfoSection = () => {
         <div className="border-2 rounded-lg p-6 text-center shadow-sm bg-yellow-500 border-white">
           <FiMapPin className="mx-auto text-4xl mb-4" />
           <h3 className="text-xl font-semibold mb-2">Location</h3>
-          <p className="text-gray-900">85a Market Street</p>
-          <p className="text-gray-900">Ashby</p>
-          <p className="text-gray-900">LE65 1AH</p>
+          <p className="text-gray-900">10b Leicester Road</p>
+          <p className="text-gray-900">Quorn</p>
+          <p className="text-gray-900">LE12 8ET</p>
+          <FiPhone className="mx-auto text-4xl mb-2 mt-4"/>
+          <h3 className="text-xl font-semibold">01509 416655</h3>
         </div>
       </div>
     </section>

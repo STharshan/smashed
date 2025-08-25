@@ -9,7 +9,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         {/* Logo */}
         <img
-          className="h-25 w-20 font-serif tracking-widest ml-4 sm:ml-6"
+          className="h-20 w-20 font-serif tracking-widest ml-4 sm:ml-6"
           src="/logo.png"
           alt="logo"
         />

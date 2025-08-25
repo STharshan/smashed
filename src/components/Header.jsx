@@ -4,13 +4,21 @@ const Header = () => {
   return (
     <section
       id="header"
-      className="w-full h-screen bg-black bg-cover bg-center relative flex items-center justify-center"
-      style={{
-        backgroundImage: "url('/hero-bg.jpg')",
-      }}
+      className="w-full h-screen relative flex items-center justify-center overflow-hidden"
     >
+      {/* Background Video */}
+      <video
+        autoPlay
+        loop
+        muted
+        className="absolute top-0 left-0 w-full h-full object-cover"
+      >
+        <source src="/back.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+
       {/* Overlay */}
-      <div className="absolute inset-0 bg-black opacity-60"></div>
+      <div className="absolute inset-0 bg-black opacity-80"></div>
 
       {/* Content */}
       <div className="relative text-white text-center px-4">
@@ -25,7 +33,7 @@ const Header = () => {
             </button>
           </a>
           <a
-            href="https://www.pronto-ny.com/ordering/restaurant/menu?restaurant_uid=ac4a6b17-c1a7-4cee-9d15-8f133982a3b3 "
+            href="https://www.pronto-ny.com/ordering/restaurant/menu?restaurant_uid=ac4a6b17-c1a7-4cee-9d15-8f133982a3b3"
             target="_blank"
             rel="noopener noreferrer"
           >
