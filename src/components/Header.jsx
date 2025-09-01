@@ -60,19 +60,19 @@ const Header = () => {
       className="w-full h-screen relative overflow-hidden"
     >
       {/* Background Video */}
-      <video
-        ref={videoRef}
-        loop
-        muted
-        playsInline
-        webkit-playsinline="true"
-        preload="auto"
-        className="w-full h-full object-cover"
-        style={{ objectFit: "cover" }}
-      >
-        <source src="/back.mp4" type="video/mp4" />
-      </video>
-
+      <div className="absolute inset-0">
+        <video
+          ref={videoRef}
+          loop
+          muted
+          playsInline
+          preload="auto"
+          className="w-full h-full object-cover z-50"
+          style={{ objectFit: "cover" }}
+        >
+          <source src="/back.mp4" type="video/mp4" />
+        </video>
+      </div>
 
       {/* Overlay */}
       <div className="absolute inset-0 bg-black opacity-80"></div>
