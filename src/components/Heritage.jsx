@@ -18,7 +18,7 @@ const Heritage = () => {
         </div>
 
         {/* Right Section */}
-        <div className="md:w-1/3 bg-yellow-500 p-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
+        <div className="md:w-1/3 bg-yellow-500 p-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 hover:z-50 hover:bg-yellow-400">
           <div className="flex items-center justify-center mb-4">
             <div className="flex-shrink-0 w-12 h-12 rounded-full flex items-center justify-center bg-orange-500 text-white">
               <FaHeart className="text-2xl" />
@@ -29,6 +29,7 @@ const Heritage = () => {
             From backyard BBQ experiments to late-night burger runs, our love for good grub (and each other’s bad ideas) sparked the flavours you’re biting into today.
           </p>
         </div>
+
       </div>
     </section>
   );

@@ -10,7 +10,7 @@ const expertiseData = [
       "We craft every burger ourselves-seasoning, smashing, and stacking-so you get nothing but fresh, mouthwatering goodness.",
   },
   {
-    icon: <Utensils  className="text-3xl text-orange-400" />,
+    icon: <Utensils className="text-3xl text-orange-400" />,
     title: "Years in the Making",
     description:
       "From teenage grill experiments to perfecting patties on the road, our journey’s been fuelled by curiosity, flavour, and a lot of taste-testing.",
@@ -25,7 +25,7 @@ const expertiseData = [
 
 const Expertise = () => {
   return (
-    <section id="expertise" className=" py-16 px-6 bg-black">
+    <section id="expertise" className="py-16 px-6 bg-black">
       <h2 className="text-4xl font-bold text-center mb-8 text-white">Juiciest Burgers In Town</h2>
       <p className="text-xl text-center text-yellow-500 mb-12">
         What started as two friends sharing laughs over backyard BBQs is now a full-blown mission to serve the juiciest burgers in town.
@@ -34,7 +34,7 @@ const Expertise = () => {
         {expertiseData.map((item, index) => (
           <div
             key={index}
-            className="bg-yellow-500 p-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300"
+            className="bg-yellow-500 p-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
           >
             <div className="flex items-center justify-center mb-4">
               <div className="bg-white p-3 rounded-full">{item.icon}</div>
