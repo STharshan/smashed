@@ -40,15 +40,9 @@ const Header = () => {
         playsInline
         webkit-playsinline="true"  // Ensure video doesn't go fullscreen on iOS
         preload="auto"
-        className="absolute top-0 left-0 w-full h-full object-cover"
+        className="absolute top-0 left-0 w-full h-full object-cover z-50"
       >
         <source src="/back.mp4" type="video/mp4" />
-        {/* Fallback Image for devices where video autoplay doesn't work */}
-        <img
-          src="/fallback-image.jpg" // Replace with your fallback image
-          alt="Background image"
-          className="w-full h-full object-cover"
-        />
         Your browser does not support the video tag.
       </video>
 
