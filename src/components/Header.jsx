@@ -40,17 +40,17 @@ const Header = () => {
         playsInline
         webkit-playsinline="true"  // Ensure video doesn't go fullscreen on iOS
         preload="auto"
-        className="absolute top-0 left-0 w-full h-full object-cover z-50"
+        className="w-full h-full object-cover absolute top-0 left-0 z-0"  // Position video behind content
       >
         <source src="/back.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
 
       {/* Overlay */}
-      <div className="absolute inset-0 bg-black opacity-80"></div>
+      <div className="absolute inset-0 bg-black opacity-80 z-10"></div>  {/* Make overlay in front of video */}
 
       {/* Content - perfectly centered */}
-      <div className="relative z-10 flex flex-col items-center justify-center text-center text-white px-4 min-h-screen">
+      <div className="relative z-20 flex flex-col items-center justify-center text-center text-white px-4 min-h-screen">
         <h1 className="text-4xl md:text-6xl font-bold mb-4">Smashed</h1>
         <p className="text-lg md:text-xl max-w-2xl mx-auto mb-6">
           Where comfort meets crave-worthy. Bite into our signature burgers,
