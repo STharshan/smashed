@@ -1,5 +1,5 @@
 import React from "react";
-import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
+import { FaFacebookF, FaInstagram } from "react-icons/fa";
 import { FiMapPin, FiPhone, FiMail } from "react-icons/fi";
 
 const Footer = () => {
@@ -19,7 +19,6 @@ const Footer = () => {
           <div className="flex space-x-4 text-white">
             <a href="https://web.facebook.com/people/Smashed-Ashby/61570892613518/?_rdc=1&_rdr#" className="hover:text-blue-700"><FaFacebookF /></a>
             <a href="https://www.instagram.com/smashed.ashby/" className="hover:text-pink-500"><FaInstagram /></a>
-            <a href="https://twitter.com/yourhandle" className="hover:text-sky-500"><FaTwitter /></a>
           </div>
         </div>
 
@@ -93,9 +92,6 @@ const Footer = () => {
       <hr className="my-8 border-gray-600" />
 
       {/* Bottom Bar */}
-      <div className="text-center text-md text-white font-semibold">
-        © 2025 Smashed. All rights reserved. Made with <span className="text-red-500">❤️</span> for authentic food lovers.
-      </div>
       <div className="mt-2 text-center font-semibold">
         <p>
           Powered by{" "}
