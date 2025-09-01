@@ -27,21 +27,52 @@ const Header = () => {
     quornRef.current?.click();
   };
 
+  const videoRef = useRef(null);
+
+  useEffect(() => {
+    const handleAutoplay = () => {
+      const video = videoRef.current;
+      if (video && video.paused) {
+        video.play().catch((err) => console.log("Autoplay failed", err));
+      }
+    };
+
+    // Trigger autoplay after a brief delay to avoid issues on page load
+    setTimeout(handleAutoplay, 100);
+
+    // Listen for visibility changes (if the user navigates back)
+    const handleVisibilityChange = () => {
+      if (document.visibilityState === "visible") {
+        handleAutoplay();
+      }
+    };
+
+    document.addEventListener("visibilitychange", handleVisibilityChange);
+
+    return () => {
+      document.removeEventListener("visibilitychange", handleVisibilityChange);
+    };
+  }, []);
+
   return (
     <section
       id="header"
       className="w-full h-screen relative overflow-hidden"
     >
       {/* Background Video */}
-      <video
-        autoPlay
-        loop
-        muted
-        className="absolute top-0 left-0 w-full h-full object-cover"
-      >
-        <source src="/back.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
+      <div className="absolute inset-0">
+        <video
+          ref={videoRef}
+          loop
+          muted
+          playsInline
+          preload="auto"
+          className="w-full h-full object-cover"
+          style={{ objectFit: "cover" }}
+        >
+          <source src="/back.mp4" type="video/mp4" />
+        </video>
+      </div>
 
       {/* Overlay */}
       <div className="absolute inset-0 bg-black opacity-80"></div>
