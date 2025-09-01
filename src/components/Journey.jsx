@@ -42,7 +42,7 @@ const Journey = () => {
         {journeyData.map((item, index) => (
           <div
             key={index}
-            className="bg-yellow-500 p-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300"
+            className="bg-yellow-500 p-6 rounded-lg shadow-lg hover:shadow-xl hover:scale-105 hover:z-10 transition-all duration-300"
           >
             <div className="flex items-center space-x-3">
               <div
