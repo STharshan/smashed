@@ -131,7 +131,7 @@ const Menu = () => {
             <img
               src={item.image && item.image !== "" ? item.image : "/logo.png"}  // More explicit check for missing or empty image values
               alt={item.title}
-              className="ml-14 w-[70%] mt-5 rounded-lg h-52 object-cover"
+              className="ml-14 w-[70%]  mt-5 rounded-lg h-65 object-cover"
               onError={(e) => e.target.src = "/logo.png"}  // Fallback to logo.png on image load error
             />
             <div className="p-4">
