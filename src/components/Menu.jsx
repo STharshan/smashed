@@ -25,7 +25,7 @@ const allItems = [
   // Smashed Chicken Burgers
   { title: "Fly Chick", price: "£6.00", desc: "Crispy fried chicken fillet topped with American cheese, lettuce, and our house sauce in a seeded brioche bun.", category: "Smashed Chicken Burgers", image: "/fly.jpg" },
   { title: "Mexcicano Chick", price: "£7.50", desc: "Crispy fried chicken fillet topped with coleslaw, hash brown, jalapeños, American cheese, lettuce, and our house sauce in a seeded brioche bun.", category: "Smashed Chicken Burgers", image: "/mexicano.jpg" },
-  { title: "Dynamitei", price: "£6.50", desc: "Crispy fried chicken fillet coated in our dynamite sauce topped with American cheese and lettuce, in a seeded brioche bun.", category: "Smashed Chicken Burgers", image: "/biryani.jpg" },
+  { title: "Dynamitei", price: "£6.50", desc: "Crispy fried chicken fillet coated in our dynamite sauce topped with American cheese and lettuce, in a seeded brioche bun.", category: "Smashed Chicken Burgers", image: "/dynamite.jpg" },
 
   // Loaded Fries
   { title: "Loaded Beef Fries", price: "£7.50", desc: "Fries topped with ground beef, cheese, jalapeños, caramelised onions, peppers, your choice of sauce, garnished with crispy fried onions.", category: "Loaded Fries", image: "/beef.jpg" },
@@ -44,7 +44,7 @@ const allItems = [
   { title: "Hot Chilli", price: "£0.75", category: "Dips", image: "/chicken.jpg" },
   { title: "Chilli", price: "£0.75", category: "Dips", image: "/chicken.jpg" },
   { title: "Algerian", price: "Sold out", category: "Dips", image: "/chicken.jpg" },
-  { title: "Dynamite", price: "£0.75", category: "Dips", image: "/dynamite.jpg" },
+  { title: "Dynamite", price: "£0.75", category: "Dips", image: "/dynamivte.jpg" },
   { title: "Burger", price: "£0.75", category: "Dips", image: "/chicken.jpg" },
   { title: "BBQ", price: "£0.75", category: "Dips", image: "/chicken.jpg" },
   { title: "Ketchup", price: "£0.75", category: "Dips", image: "/chicken.jpg" },
