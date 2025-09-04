@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaHeart } from 'react-icons/fa'; // Using React Icons
+import Card from './Card'; // Import the Card component
 
 const Heritage = () => {
   return (
@@ -18,18 +19,17 @@ const Heritage = () => {
         </div>
 
         {/* Right Section */}
-        <div className="md:w-1/3 bg-yellow-500 p-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 hover:z-50 hover:bg-yellow-400">
-          <div className="flex items-center justify-center mb-4">
-            <div className="flex-shrink-0 w-12 h-12 rounded-full flex items-center justify-center bg-orange-500 text-white">
-              <FaHeart className="text-2xl" />
-            </div>
-          </div>
-          <h3 className="text-xl font-semibold text-center text-black">Mates’ Inspiration</h3>
-          <p className="text-center text-gray-900 mt-2">
-            From backyard BBQ experiments to late-night burger runs, our love for good grub (and each other’s bad ideas) sparked the flavours you’re biting into today.
-          </p>
+        <div className="md:w-1/3">
+          <Card
+            icon={<FaHeart className="text-2xl" />}
+            title="Mates’ Inspiration"
+            description="From backyard BBQ experiments to late-night burger runs, our love for good grub (and each other’s bad ideas) sparked the flavours you’re biting into today."
+            bgColor="yellow-500"
+            iconColor="bg-orange-500 text-white"
+            titleColor="text-black"
+            descriptionColor="text-gray-900"
+          />
         </div>
-
       </div>
     </section>
   );

@@ -1,6 +1,7 @@
 import { Flame, Utensils } from 'lucide-react';
 import React from 'react';
 import { FaAward } from 'react-icons/fa'; // Importing icons from React Icons
+import Card from './Card'; // Import the Card component
 
 const expertiseData = [
   {
@@ -32,16 +33,16 @@ const Expertise = () => {
       </p>
       <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {expertiseData.map((item, index) => (
-          <div
+          <Card
             key={index}
-            className="bg-yellow-500 p-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
-          >
-            <div className="flex items-center justify-center mb-4">
-              <div className="bg-white p-3 rounded-full">{item.icon}</div>
-            </div>
-            <h3 className="text-xl font-semibold text-center text-black">{item.title}</h3>
-            <p className="text-center text-gray-900 mt-2">{item.description}</p>
-          </div>
+            icon={item.icon}
+            title={item.title}
+            description={item.description}
+            bgColor="yellow-500"
+            iconColor="bg-white"
+            titleColor="text-black"
+            descriptionColor="text-gray-900"
+          />
         ))}
       </div>
     </section>
