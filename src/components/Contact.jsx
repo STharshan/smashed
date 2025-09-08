@@ -185,7 +185,7 @@ const Contact = () => {
                 <input
                   type="text"
                   name="firstName"
-                  placeholder="First Name"
+                  placeholder="First Name*"
                   value={formData.firstName}
                   onChange={handleInputChange}
                   className="w-full border p-2 rounded"
@@ -194,7 +194,7 @@ const Contact = () => {
                 <input
                   type="text"
                   name="lastName"
-                  placeholder="Last Name"
+                  placeholder="Last Name*"
                   value={formData.lastName}
                   onChange={handleInputChange}
                   className="w-full border p-2 rounded"
@@ -204,7 +204,7 @@ const Contact = () => {
               <input
                 type="email"
                 name="email"
-                placeholder="Email"
+                placeholder="Email*"
                 value={formData.email}
                 onChange={handleInputChange}
                 className="w-full border p-2 rounded"
@@ -213,7 +213,7 @@ const Contact = () => {
               <input
                 type="text"
                 name="phone"
-                placeholder="Phone"
+                placeholder="Phone*"
                 value={formData.phone}
                 onChange={handleInputChange}
                 className="w-full border p-2 rounded"
@@ -222,7 +222,7 @@ const Contact = () => {
               <textarea
                 name="message"
                 rows="4"
-                placeholder="Message"
+                placeholder="Message*"
                 value={formData.message}
                 onChange={handleInputChange}
                 className="w-full border p-2 rounded"
