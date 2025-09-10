@@ -1,6 +1,7 @@
 import React from "react";
 import { FaFacebookF, FaInstagram } from "react-icons/fa";
 import { FiMapPin, FiPhone, FiMail } from "react-icons/fi";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -17,8 +18,8 @@ const Footer = () => {
             Where comfort meets crave-worthy. Bite into our signature burgers, golden fries, and urban-inspired eats in the heart of the city.
           </p>
           <div className="flex space-x-4 text-white">
-            <a href="https://web.facebook.com/people/Smashed-Ashby/61570892613518/?_rdc=1&_rdr#" className="hover:text-blue-700"><FaFacebookF /></a>
-            <a href="https://www.instagram.com/smashed.ashby/" className="hover:text-pink-500"><FaInstagram /></a>
+            <a target="_blank" href="https://web.facebook.com/people/Smashed-Ashby/61570892613518/?_rdc=1&_rdr#" className="hover:text-blue-700"><FaFacebookF /></a>
+            <a target="_blank" href="https://www.instagram.com/smashed.ashby/" className="hover:text-pink-500"><FaInstagram /></a>
           </div>
         </div>
 
@@ -42,8 +43,12 @@ const Footer = () => {
             <li><a href="#" className="hover:text-gray-300">Smashed Chicken Burgers</a></li>
             <li><a href="#" className="hover:text-gray-300">Loaded Fries</a></li>
             <li><a href="#" className="hover:text-gray-300">Sides</a></li>
-            <li><a href="#" className="hover:text-gray-300">Privacy Policy</a></li>
-            <li><a href="#" className="hover:text-gray-300">Terms & Conditions</a></li>
+            <li>
+              <Link to="/privacy-policy" className="hover:text-gray-300">Privacy Policy</Link> {/* Updated link */}
+            </li>
+            <li>
+              <Link to="/terms-conditions" className="hover:text-gray-300">Terms & Conditions</Link> {/* Updated link */}
+            </li>
           </ul>
         </div>
 

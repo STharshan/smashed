@@ -1,36 +1,25 @@
-import About from "./components/About"
-import Contact from "./components/Contact"
-import Expertise from "./components/Expertise"
-import Footer from "./components/Footer"
-import Header from "./components/Header"
-import Heritage from "./components/Heritage"
-import InfoSection from "./components/InfoSection"
-import Journey from "./components/Journey"
-import Menu from "./components/Menu"
-import Navbar from "./components/Navbar"
-import Story from "./components/Story"
-import { StorySection } from "./components/StorySection"
-import Testimonials from "./components/Testimonials"
-
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import TermsConditions from "./components/Term";
+import Home from "./pages/Home";
+import PrivacyPolicy from "./components/PrivacyPolicy";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
-
   return (
-    <>
+    <Router>
+      <ScrollToTop />
       <Navbar />
-      <Header />
-      <Story />
-      <Journey />
-      <Heritage />
-      <Expertise />
-      <StorySection />
-      <Menu />
-      <InfoSection />
-      <Testimonials />
-      <Contact />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/terms-conditions" element={<TermsConditions />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+      </Routes>
       <Footer />
-    </>
-  )
+    </Router>
+  );
 }
 
-export default App
+export default App;
