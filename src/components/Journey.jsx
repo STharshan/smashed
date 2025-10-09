@@ -38,7 +38,7 @@ const Journey = () => {
   return (
     <section id="journey" className="bg-black py-16 px-6">
       <h2 className="text-4xl font-bold text-center mb-8 text-yellow-500">The Journey</h2>
-      <div className="grid sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-8">
+      <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
         {journeyData.map((item, index) => (
           <div
             key={index}
