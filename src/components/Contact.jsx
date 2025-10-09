@@ -78,8 +78,8 @@ const Contact = () => {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
           {/* Contact Info */}
-          <div className="space-y-6 text-white">
-            <div>
+          <div className="space-y-6 p-5 text-white">
+            <div className="">
               <h3 className="text-xl font-semibold mb-2">Contact Information</h3>
               <div className="flex items-start gap-3 mb-2">
                 <FiPhone className="text-2xl mt-1" />
@@ -174,7 +174,7 @@ const Contact = () => {
                 </a>
               </div>
             </div>
-          </div>
+          </div>w
 
           {/* Contact Form */}
           <div className="bg-yellow-500 p-6 rounded-lg shadow">

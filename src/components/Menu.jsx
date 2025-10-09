@@ -122,7 +122,7 @@ const Menu = () => {
       </div>
 
       {/* Menu Grid */}
-      <div className="grid md:grid-cols-3 sm:grid-cols-2 gap-8 max-w-6xl mx-auto">
+      <div className="grid sm:grid-cols-2 gap-8 max-w-6xl mx-auto">
         {filtered.map((item, i) => (
           <div
             key={i}
@@ -131,7 +131,7 @@ const Menu = () => {
             <img
               src={item.image && item.image !== "" ? item.image : "/logo.png"}  // More explicit check for missing or empty image values
               alt={item.title}
-              className="ml-14 w-[70%]  mt-5 rounded-lg h-65 object-cover"
+              className="mx-auto w-[85%] md:h-80  mt-5 rounded-lg h-65 object-cover"
               onError={(e) => e.target.src = "/logo.png"}  // Fallback to logo.png on image load error
             />
             <div className="p-4">
