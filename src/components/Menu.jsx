@@ -99,7 +99,7 @@ const Menu = () => {
     : allItems.filter((item) => item.category === selected);
 
   return (
-    <section id="menu" className="w-full bg-black text-[#E5D9C2] px-6">
+    <section id="menu" className="w-full bg-black text-[#E5D9C2] px-6 scroll-m-10">
       {/* Title */}
       <div className="text-center mb-8">
         <h2 className="text-4xl md:text-6xl font-bold mb-5 text-white pt-15">Main Menu</h2>

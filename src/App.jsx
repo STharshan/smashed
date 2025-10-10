@@ -14,8 +14,24 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/terms-conditions" element={<TermsConditions />} />
-        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+
+        {/* Terms & Privacy with ScrollToTop wrapper */}
+        <Route
+          path="/terms-conditions"
+          element={
+            <ScrollToTop>
+              <TermsConditions />
+            </ScrollToTop>
+          }
+        />
+        <Route
+          path="/privacy-policy"
+          element={
+            <ScrollToTop>
+              <PrivacyPolicy />
+            </ScrollToTop>
+          }
+        />
       </Routes>
       <Footer />
       <GDPRConsent />
