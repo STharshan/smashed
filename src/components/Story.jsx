@@ -2,7 +2,7 @@ import React from "react";
 
 const Story = () => {
     return (
-        <section id="story" className="py-16 px-6 scroll-m-25 bg-black">
+        <section id="story" className="py-10 px-6 scroll-m-15 bg-black">
             <div className="max-w-7xl mx-auto flex flex-col items-center justify-center text-center">
                     <div>
                         {/* Replace with your image URL */}

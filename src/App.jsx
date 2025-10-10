@@ -11,7 +11,6 @@ import GDPRConsent from "./components/GDPRButton";
 function App() {
   return (
     <Router>
-      <ScrollToTop />
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
