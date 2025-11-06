@@ -20,7 +20,7 @@ const InfoSection = () => {
     {
       title: "Location",
       icon: <FiMapPin />,
-      details: ["85a Market Street", "Ashby", "LE65 1AH"],
+      details: ["85 Market Street", "Ashby", "LE65 1AH"],
       phoneNumber: "01530 648708"
     }
   ];

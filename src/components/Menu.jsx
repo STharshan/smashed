@@ -15,7 +15,7 @@ const categories = [
 
 const allItems = [
   // Burger Special Meal
-  { title: "Munch Box", price: "£16.00", desc: "Your choice of Classic Smash or Fly Chick, Loaded Beef of Chick Fries, and any Shake", category: "Burger Special Meal", image: "/fishfry.jpeg" },
+  { title: "Munch Box", price: "£15.00", desc: "Your choice of Classic Smash or Fly Chick, Loaded Beef of Chick Fries, and any Shake", category: "Burger Special Meal", image: "/fishfry.jpeg" },
 
   // Smashed Burgers
   { title: "Classic Smash", price: "£6.00", desc: "Two SMASHED Angus beef patties topped with American cheese, lettuce, gherkins, and our house sauce in a seeded brioche bun.", category: "Smashed Burgers", image: "/classic.jpg" },
@@ -126,12 +126,12 @@ const Menu = () => {
         {filtered.map((item, i) => (
           <div
             key={i}
-            className="bg-[#1A1A1A] rounded-lg border border-gray-300 overflow-hidden transition-all duration-300 ease-in-out transform hover:scale-105 hover:border-yellow-500 hover:shadow-2xl"
+            className="bg-[#1A1A1A]  rounded-lg border border-gray-300 overflow-hidden transition-all duration-300 ease-in-out transform hover:scale-105 hover:border-yellow-500 hover:shadow-2xl"
           >
             <img
               src={item.image && item.image !== "" ? item.image : "/logo.png"}  // More explicit check for missing or empty image values
               alt={item.title}
-              className="mx-auto w-[85%] md:h-80  mt-5 rounded-lg h-65 object-cover"
+              className="mx-auto w-[65%] md:h-80  mt-5 rounded-lg h-65 object-cover"
               onError={(e) => e.target.src = "/logo.png"}  // Fallback to logo.png on image load error
             />
             <div className="p-4">

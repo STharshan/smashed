@@ -88,7 +88,7 @@ export default function Footer() {
                 rel="noopener noreferrer"
                 className="hover:underline text-gray-400"
               >
-                85a Market Street,<br />Ashby LE65 1AH
+                85 Market Street,<br />Ashby LE65 1AH
               </a>
             </li>
             <li className="flex items-center gap-2">

@@ -98,7 +98,7 @@ const Contact = () => {
                   rel="noopener noreferrer"
                   className="hover:text-yellow-500 transition"
                 >
-                  85a Market Street,<br />
+                  85 Market Street,<br />
                   Ashby LE65 1AH
                 </a>
               </div>
