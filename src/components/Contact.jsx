@@ -93,7 +93,7 @@ const Contact = () => {
               <div>
                 <p className="font-semibold">Address</p>
                 <a
-                  href="https://www.google.com/maps?q=85a+Market+Street,+Ashby+LE65+1AH"
+                  href="https://maps.app.goo.gl/rK7P73aXvS351ra96"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-yellow-500 transition"

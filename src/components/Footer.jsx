@@ -83,7 +83,7 @@ export default function Footer() {
             <li className="flex items-start gap-2">
               <MapPin className="mt-1 text-yellow-500 flex-shrink-0" size={16} />
               <a
-                href="https://www.google.com/maps?q=85a+Market+Street,+Ashby+LE65+1AH"
+                href="https://maps.app.goo.gl/rK7P73aXvS351ra96"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:underline text-gray-400"
